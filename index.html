@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css">
+  </head>
+  <body>
+    <div id="app">
+      <div id="navigation-panel">
+        <p class='title'>Frozen Yogurt in New York City</p>
+        <div class='card' onclick="culture.openPopup()">
+          <p class="name">Culture</p>
+          <p class="neighborhood">Park Slope</p>
+        </div>
+        <div class='card' onclick="pinkberry.openPopup()">
+          <p class="name">Pinkberry</p>
+          <p class="neighborhood">Upper West Side</p>
+        </div>
+        <div class='card' onclick="redMango.openPopup()">
+          <p class="name">Red Mango</p>
+          <p class="neighborhood">FiDi</p>
+        </div>
+        <div class='card' onclick="sixteenHandles.openPopup()">
+          <p class="name">16 Handles</p>
+          <p class="neighborhood">Chelsea</p>
+        </div>
+        <div class='card' onclick="tastiDLite.openPopup()">
+          <p class="name">Tasti D-Lite</p>
+          <p class="neighborhood">Kips Bay</p>
+        </div>
+      </div>
+      <div id="map"></div>
+    </div>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+
